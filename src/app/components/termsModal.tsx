@@ -3,7 +3,7 @@ const TermsModal = () => {
   const { termsModalIsOpen, setTermsModalIsOpen } = useGlobalState();
   return (
     <div className="w-screen h-screen z-20 absolute flex items-center justify-center p-4 shadow-md">
-      <div className="bg-green-500 flex flex-col items-center justify-center border-2 border-black p-2 text-center">
+      <div className="bg-teal-500 flex flex-col items-center justify-center border-2 border-black p-2 text-center">
         <p className="text-sm">
           Get Funds is a Specialist Consulting firm, partnered with best in
           class funders. Offering the correct funder match first time round for

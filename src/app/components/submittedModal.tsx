@@ -4,7 +4,7 @@ const SubmittedModal = () => {
   const { submitModalIsOpen, setSubmitModalIsOpen } = useGlobalState();
   return (
     <div className="w-screen h-screen z-20 absolute flex items-center justify-center p-4 shadow-md">
-      <div className="bg-green-500 flex flex-col items-center justify-center border-2 border-black p-2 text-center">
+      <div className="bg-teal-500 flex flex-col items-center justify-center border-2 border-black p-2 text-center">
         <p className="text-sm">
           Thank you for submitting your details. We will reach out to you
           shortly.
