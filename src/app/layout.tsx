@@ -22,7 +22,7 @@ export default function RootLayout({
     <>
     <html lang="en">
       
-      <body className="bg-[#1e394c]">{children}</body>
+      <body className="">{children}</body>
     </html>
     <Analytics />
     <SpeedInsights />

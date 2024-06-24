@@ -120,14 +120,9 @@ const Congrats = () => {
       <div className="flex justify-center items-center text-slate-900">
         <div className="mx-4 sm:mx-8 md:mx-16 lg:mx-32 xl:mx-48 text-slate-900">
           <div className="flex justify-center">
-            <Image
-              src="/images/logo.png"
-              alt="festive"
-              height={150}
-              width={150}
-            />
+            
           </div>
-          <h1 className="text-center text-white font-bold text-4xl mt-3">
+          <h1 className="text-center text-[#1e394c] font-bold text-4xl mt-4">
             Cash Advance Calculator
           </h1>
           <div className="mx-auto mt-8   rounded-lg">
@@ -266,13 +261,7 @@ const Congrats = () => {
                 <div className="p-5 mt-3">
                   <h1 className="font-bold p-2 ">How it works</h1>
                   <p className="text-sm">
-                    Fundgenie is a Specialist Consulting firm, partnered with
-                    best in class funders. Offering the correct funder match
-                    first time round for your working capital needs. Speak to us
-                    about your requirements and we will have the right funder
-                    fund you in 1-3 days. Apply so we can reach out and take you
-                    one step closer to your goals. These Quotes are estimates.
-                    We use our economies of scale to get you the best deals.
+                  We have partnered with best-in-class specialist funders! Offering the correct funder match first time round for your working capital needs. Speak to us about your requirements and we will have the right funder fund you in 1-3 days. Apply so we can reach out and take you one step closer to your goals. We use our economies of scale to get you the best deals. Quotes are estimates."
                   </p>
                 </div>
                 <div className="flex flex-row text-center mx-auto">
@@ -323,7 +312,7 @@ const Congrats = () => {
           <div className="mx-4 sm:mx-8 md:mx-16 lg:mx-32 xl:mx-48 text-slate-900">
             <div className="flex flex-col sm:flex-row text-center sm:text-left">
               {/* first Column */}
-              <div className="w-full sm:w-1/2 flex gap-5 justify-center py-3">
+              <div className="w-full flex gap-5 items-center justify-center py-3">
                 <Link href={url}>
                   <button
                     className="border rounded-full hover:bg-[#a08e40] hover:text-white border-slate-900 border-1 bg-[#e0cb70] mt-0 md:mt-3 px-10 py-3 text-slate-900 flex items-center justify-center"
@@ -334,36 +323,13 @@ const Congrats = () => {
                 </Link>
                 <button
                   onClick={() => setTermsModalIsOpen(true)}
-                  className="lg:hidden uppercase underline text-white"
+                  className="lg:hidden uppercase underline text-black"
                 >
                   How it works?
                 </button>
               </div>
+              <h2 className="mt-4 text-xl font-bold">Powered by <span className="text-[#117c7c] font-bold">Fundgenie</span></h2>
               {/* first Column */}
-              <div className="flex w-full sm:w-1/2 justify-center py-7 text-xl">
-                <div className="px-2 py-1 text-white">
-                  <Link
-                    target="_blank"
-                    href="https://za.linkedin.com/company/get-funds"
-                  >
-                    <h1>
-                      <FaLinkedinIn />
-                    </h1>
-                  </Link>
-                </div>
-                <div className="px-2 py-1 text-white">
-                  <Link href="mailto:info@fundgenie.co.za">
-                    <h1>
-                      <BiMailSend />
-                    </h1>
-                  </Link>
-                </div>
-                <div className="px-2 ">
-                  <Link href="https://apply.fundgenie.co.za" target="_blank">
-                    <h2 className="underline text-white">fundgenie.co.za</h2>
-                  </Link>
-                </div>
-              </div>
             </div>
           </div>
           <div className="flex items-center justify-center "></div>
