@@ -19,7 +19,7 @@ const Congrats = () => {
 
   const userProfileLink = `/application/?${broker}`;
   const userLink = broker ? `/user/${broker}` : '/user';
-  const url = broker ? `https://apply.fundgenie.co.za?broker=${broker}` : `https://apply.fundgenie.co.za?broker=${broker}`;
+  const url = broker ? `https://apply.fundgenie.co.za?broker=${broker}` : `https://apply.fundgenie.co.za?broker=${"housedeal"}`;
 
   // @ts-ignore
   const handleKeyDown = (event) => {
@@ -117,7 +117,7 @@ const Congrats = () => {
     <div>
       {isModalOpen && <Modal />}
       {termsModalIsOpen && <TermsModal />}
-      <div className="flex justify-center items-center text-slate-900">
+      <div className="flex justify-center items-center mt-7 text-slate-900">
         <div className="mx-4 sm:mx-8 md:mx-16 lg:mx-32 xl:mx-48 text-slate-900">
           <div className="flex justify-center">
             
