@@ -261,7 +261,7 @@ const Congrats = () => {
                 <div className="p-5 mt-3">
                   <h1 className="font-bold p-2 ">How it works</h1>
                   <p className="text-sm">
-                  We have partnered with best-in-class specialist funders! Offering the correct funder match first time round for your working capital needs. Speak to us about your requirements and we will have the right funder fund you in 1-3 days. Apply so we can reach out and take you one step closer to your goals. We use our economies of scale to get you the best deals. Quotes are estimates."
+                  We have partnered with best-in-class specialist funders! Offering the correct funder match first time round for your working capital needs. Speak to us about your requirements and we will have the right funder fund you in 1-3 days. Apply so we can reach out and take you one step closer to your goals. We use our economies of scale to get you the best deals. Quotes are estimates.
                   </p>
                 </div>
                 <div className="flex flex-row text-center mx-auto">
